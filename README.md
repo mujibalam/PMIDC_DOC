@@ -1,2 +1,2 @@
 # PMIDC_DOC
-Non confidential docs purpose only
+Non confidential docs & data sharing purpose only
