@@ -1,0 +1,17 @@
+curl 'http://localhost:3006/property-services/property/_search?tenantId=pb.testing&surveyId=9876' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Cache-Control: no-cache, no-store, no-transform, must-revalidate, max-age=0' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json;charset=UTF-8' \
+  -H 'Origin: http://localhost:3006' \
+  -H 'Referer: http://localhost:3006/pt-mutation/propertySearch' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36' \
+  -H 'X-Frame-Options: sameorigin' \
+  -H 'sec-ch-ua: "Not(A:Brand";v="24", "Chromium";v="122"' \
+  -H 'sec-ch-ua-mobile: ?1' \
+  -H 'sec-ch-ua-platform: "Android"' \
+  --data-raw '{"RequestInfo":{"apiId":"Mihy","ver":".01","action":"","did":"1","key":"","msgId":"20170310130900|en_IN","requesterId":"","authToken":"da0ef62a-1a60-4009-ac54-a83b600eadc7"}}'
